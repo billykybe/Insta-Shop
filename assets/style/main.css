@@ -1,0 +1,265 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+/*Font import*/
+:root{
+    --redDeamed:#ff0051;
+    --lightGray:#f6f6f7;
+    --white :#ffffff;
+    --heroBg:#f0efed;
+    --heroImgBg:#fee7e2;
+    --textBlack:#2b2722;
+    --textBlackDeam:#bfcaca;
+    --orange:#ff3d00;
+    --green:#099944;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--textBlack);
+}
+.home{
+    width: 100%;
+    height: 100%;
+ 
+  
+}
+.home .topInfo{
+    width: 100%;
+
+    position: relative;
+
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: var(--redDeamed);
+text-align: center;
+}
+.home .topInfo p{
+font-size: .9rem;
+font-weight: bold;
+vertical-align: middle;
+color: var(--lightGray);
+}
+.home .topInfo p a{
+    color: var(--white);
+}
+.home .topInfo p span{
+font-weight: bolder;
+font-size: .93rem;
+color: var(--white);
+
+}
+.home .topInfo .close img{
+    width: 1rem;
+top: 0;
+right: 1rem;
+margin-right: .3rem;
+vertical-align: middle;
+}
+.home .topInfo .close{
+position: absolute;
+top: 0;
+right: 1rem;
+vertical-align: middle;
+
+}
+.home
+.topAccesibility{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+font-size: .9rem;
+color: var(--textBlack);
+
+    height: 2.5rem;
+    background-color: var(--lightGray);
+}.home
+
+.topAccesibilityContacts {
+width: 20%;
+
+}
+.topAccesibilityContacts a{
+    color: var(--textBlack);
+
+}
+.topAccesibilityContacts a img{
+width: 1rem;
+margin-left: 1rem;
+margin-right: .1rem;
+}
+
+
+.home
+.topAccesibilityOffer{}
+.topAccesibilityOffer p span{
+    color: var(--redDeamed);
+    font-weight: bold;
+}
+.home
+
+.topAccesibilitySettings{
+width: 20%;
+text-align: right;
+}.topAccesibilitySettings a{
+    margin-right: 1rem;
+    color: var(--textBlack);
+
+}
+
+.topAccesibilitySettings a img{
+    width: 1rem;
+    margin-left: 1rem;
+ margin-right: .1rem;   
+    }
+    
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;position: relative;
+    align-items: center;
+    width: 100%;
+
+    background-color: var(--white);
+color: var(--textBlack);
+}
+.navbar .logotext{
+    margin-left: 1rem;
+    font-size: 2rem;
+    width: 20%;
+
+
+}
+.navbar .navLinks{
+position: absolute;
+width: 100%;
+    text-align: center;
+}
+.navbar .navLinks a{
+    margin: 0 .65rem;
+}
+.navbar .navIcons{
+
+    
+}
+.navbar .navIcons img{
+    width: 1.5rem;
+    
+    margin-right: 1rem;
+ margin-right: 1rem;  
+}
+
+.hero{
+   
+    height: 80vh;
+    width: 100%;
+
+    background-color: var(--heroBg);
+}
+
+.hero .contain{
+    height: 100%;
+overflow: hidden;
+
+    display: flex;
+    margin: auto;
+
+    align-items: center;
+width: 80%;
+}
+.hero .contain .left{
+    width: 50%;
+
+}
+.hero .contain .left .summerText{
+font-size: 1.3rem;
+text-transform: uppercase;
+font-weight: bold;
+}
+.hero .contain .left .mainText{
+    
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 1.5rem;
+}
+.hero .contain .left a{
+padding: .8rem 1.8rem;
+color: var(--white);
+background-color: var(--textBlack);
+}
+.hero .contain .right{
+    height: 100%;
+    width: 50%;
+background: url(/assets/img/bgcircle.svg);
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: 30rem;
+position: relative;
+}
+.hero .contain .right img{
+position: absolute;
+object-fit: contain;
+margin-top: 4rem;
+
+}
+.hero .heroSlider{
+    display: flex;
+    position: absolute;
+    height: 2rem;
+    bottom: .5rem;
+    width: 80%;
+
+align-items: center;
+justify-content: center;
+
+}
+.hero .heroSlider .dot{
+    width: 1rem;
+
+margin: 0 .25rem ;
+border-radius: 50%;
+align-self: center;
+    height: 1rem;
+    background-color: var(--textBlackDeam);
+}
+.hero .heroSlider .dot:hover{
+    background-color: var(--textBlack);
+}
+
+.featured{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px; 
+    height: 80vh;
+    
+    width: 80%;
+    margin:5rem auto;
+}
+.imgOne{
+    background-color: blue;
+grid-area: 1 / 1 / 5/ 3;
+}
+.imgTwo{
+grid-area: 1 / 3 / 3 / 4;
+background-color: yellow;
+
+}
+.imgThree{
+    background-color: pink;
+    grid-area: 3 / 3 / 5 / 4;
+
+}
+.imgFour{
+    background-color: #099944;
+    grid-area: 1 / 4 / 5 / 4;
+
+}
