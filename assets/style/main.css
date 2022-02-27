@@ -17,7 +17,6 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 1px solid blue;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
@@ -45,7 +44,7 @@ text-align: center;
 font-size: .9rem;
 font-weight: bold;
 vertical-align: middle;
-color: var(--lightGray);
+color: var(--lightGray);<img class="imgfeatured"  src="/assets/img/kairetusapparel-20211109-0009.jpg" alt="">
 }
 .home .topInfo p a{
     color: var(--white);
@@ -107,6 +106,7 @@ margin-right: .1rem;
 
 .topAccesibilitySettings{
 width: 20%;
+
 text-align: right;
 }.topAccesibilitySettings a{
     margin-right: 1rem;
@@ -115,7 +115,7 @@ text-align: right;
 }
 
 .topAccesibilitySettings a img{
-    width: 1rem;
+    height: 1rem;
     margin-left: 1rem;
  margin-right: .1rem;   
     }
@@ -401,6 +401,7 @@ bottom: -5rem;
  flex-direction: column;
  align-items: center;
     min-height: 20rem;
+justify-content: center;
     color: var(--white);
 }
 .trendingSale .side .lookbook{
