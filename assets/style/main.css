@@ -15,6 +15,7 @@
 
 }
 *{
+    outline: 1px solid blue;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -244,22 +245,131 @@ align-self: center;
     width: 80%;
     margin:5rem auto;
 }
+.imgfeatured{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .imgOne{
     background-color: blue;
 grid-area: 1 / 1 / 5/ 3;
+position: relative;
 }
 .imgTwo{
 grid-area: 1 / 3 / 3 / 4;
 background-color: yellow;
+position: relative;
 
 }
 .imgThree{
     background-color: pink;
     grid-area: 3 / 3 / 5 / 4;
+    position: relative;
 
 }
 .imgFour{
     background-color: #099944;
     grid-area: 1 / 4 / 5 / 4;
+    position: relative;
 
+}
+.fc{
+    
+}
+
+.featuredcategory{
+    bottom: 0;
+    align-self: center;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+font-weight: bold;
+    position: absolute;
+    min-height: 2.5rem;
+text-align: center;
+margin: 0 auto;
+padding: .9rem 3.5rem;
+
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.trending{
+margin-bottom: 5rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.trending .sectionTitle{
+text-align: center;
+width: fit-content;
+font-size: 1.6rem;
+
+font-weight: 700;
+margin: auto;
+    
+}
+.trending .sectionTitle::before{
+    display: inline-block;
+    content: "";
+    width: 3rem;
+    margin-right: 1rem;
+    left: 0;
+    background-color: var(--textBlack);
+
+    height: .2rem;
+}
+.trending .sectionTitle::after{
+    display: inline-block;
+    content: "";
+    width: 3rem;
+    margin-left: 1rem;
+    left: 0;
+    background-color: var(--textBlack);
+
+    height: .2rem;
+}
+.trending .titleText{
+    text-align: center;
+    font-style: italic;
+
+}
+.trending
+.trendingItems{
+display: flex;
+flex-wrap: wrap;
+
+justify-content: space-between;}
+
+.trending
+.trendingItems .card{
+    width:19rem;
+
+    height: 25rem;
+    margin-top: 2rem;
+    
+}
+.card img{
+min-height: 80%;
+width: 100%;
+}
+.card h3{
+    font-weight: bold;
+    font-size: .95rem;
+}
+.card p{
+    font-size: 1rem;
+
+
+}
+.trending .loadMoreTrending{
+    text-align: center;
+    position: absolute;
+    padding: 1rem 2rem;
+bottom: 0;
+    border-radius: 50px;
+    margin:2rem auto;
 }
