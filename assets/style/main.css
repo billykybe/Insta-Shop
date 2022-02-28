@@ -514,3 +514,8 @@ margin-right: 1.5rem;
 .services .service .serviceP{
 font-size: .9rem;
 }
+.footerLinks{
+    background-color: var(--lightGray);
+    height: 100%;
+    
+}
