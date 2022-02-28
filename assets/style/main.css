@@ -517,5 +517,37 @@ font-size: .9rem;
 .footerLinks{
     background-color: var(--lightGray);
     height: 100%;
+    width: 80%;
+    margin: auto;
     
+}
+.footerLinks{
+    display: flex;
+    
+    justify-content: baseline;
+
+}
+
+.footerLinks .col{
+   display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+
+.footerLinks .col .logotext{
+    font-size: 2rem;
+}
+.footerLinks .col .impoDitails{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+
+.footerLinks .col .impoDitails .footerText{
+    font-size: .8rem;
+}
+.footerLinks .col .impoDitails .footerText img{
+    margin-right: 1rem;
+    width: 1rem;
 }
