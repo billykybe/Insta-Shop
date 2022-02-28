@@ -1,2 +1,3 @@
 # Insta-Shop
-Testing my HTML and CSS skils
+
+Online shop website written in HTML CSS and Pure Javascript
