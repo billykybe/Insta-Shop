@@ -15,10 +15,9 @@
 
 }
 *{
-    outline:1px solid blue;
     margin: 0;
-    outline: .5px solid blue;
     padding: 0;
+    outline: .5px solid blue;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
