@@ -431,6 +431,87 @@ footer{
     justify-content: space-between;
 }
 .blogg .blogs .blog{
+    margin-top: 2rem;
+    height: 100%;
     width: 30%;
 
+}
+.blogg .blogs .blog img{
+height: 18rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogg .blogs .blog .blogTitle{
+font-weight: bold;
+}
+.blogg .blogs .blog .author{
+font-size: .8rem;
+margin: .3rem 0;
+}
+.blogg .blogs .blog .author span{
+
+    font-weight: bold;
+}
+.blogg .blogs .blog p
+
+{
+margin: .3rem 0;
+
+font-size: .9rem;
+
+}
+
+.instagramPost{
+    width: 100%;
+height: 100%;
+    justify-content: center;
+
+    display: flex;
+}
+.instagramPost .img{
+    overflow: hidden;
+    position: relative;
+
+    height: 100%;
+
+
+
+}
+.instagramPost .img img{
+    object-fit: cover;
+width: 100%;}
+.instagramPost .img img:hover{
+
+    
+}
+.services{
+    margin: 1rem auto;
+
+width: 80%;
+height: 100%;
+display: flex;
+
+
+}
+.services .service{
+    align-items: flex-start;
+    height: 100%;
+    padding: 1rem;
+    height: 7rem;
+    
+    width: 100%;
+
+display: flex;
+
+}
+.services .service .serviceIcon{
+    width: 2rem;
+margin-right: 1.5rem;
+}
+.services .service .serviceTitle{
+    font-weight: bold;
+}
+.services .service .serviceP{
+font-size: .9rem;
 }
