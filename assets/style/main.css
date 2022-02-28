@@ -17,6 +17,7 @@
 *{
     outline:1px solid blue;
     margin: 0;
+    outline: .5px solid blue;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
@@ -305,7 +306,7 @@ justify-content: center;
 flex-direction: column;
 position: relative;
 }
-.trending .sectionTitle{
+ .sectionTitle{
 text-align: center;
 width: fit-content;
 font-size: 1.6rem;
@@ -314,7 +315,7 @@ font-weight: 700;
 margin: auto;
     
 }
-.trending .sectionTitle::before{
+.sectionTitle::before{
     display: inline-block;
     content: "";
     width: 3rem;
@@ -324,7 +325,7 @@ margin: auto;
 
     height: .2rem;
 }
-.trending .sectionTitle::after{
+.sectionTitle::after{
     display: inline-block;
     content: "";
     width: 3rem;
@@ -334,7 +335,7 @@ margin: auto;
 
     height: .2rem;
 }
-.trending .titleText{
+ .titleText{
     text-align: center;
     font-style: italic;
     color: var(--textBlack);
@@ -415,4 +416,21 @@ font-size: 2.5rem;
 .trendingSale .side p{
     font-size: 1rem;
     font-weight: bold;
+}
+footer{
+    height: 20vh;
+}
+
+.blogg{
+    width: 80%;
+    margin-bottom: 4rem;
+
+}
+.blogg .blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.blogg .blogs .blog{
+    width: 30%;
+
 }
