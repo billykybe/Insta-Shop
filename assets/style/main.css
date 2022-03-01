@@ -234,7 +234,14 @@ align-self: center;
 .hero .heroSlider .dot:hover{
     background-color: var(--textBlack);
 }
+.featured .io{
+    display: flex;
+    justify-content: center;
 
+}
+.featured .io .featuredcategory{
+    margin-bottom: 3em;
+}
 .featured{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -417,7 +424,6 @@ font-size: 2.5rem;
     font-weight: bold;
 }
 footer{
-    height: 20vh;
 }
 
 .blogg{
@@ -541,7 +547,6 @@ justify-content: space-between;
 .footerLinks .col .impoDitails{
     display: flex;
     flex-direction: column;
-justify-content: space-between;
 }
 
 .footerLinks .col .impoDitails .footerText{
@@ -550,4 +555,27 @@ justify-content: space-between;
 .footerLinks .col .impoDitails .footerText img{
     margin-right: 1rem;
     width: 1rem;
+}.footerLinks .col .links .footerText img{
+    margin-right: 1rem;
+    width: 1rem;
+}
+.footerLinks .col .links{
+    display: flex;
+    font-size: .9rem;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: baseline;
+}
+.footerLinks .col .links .footerText{
+    margin-bottom: .5rem;
+}
+.socialMedia img{
+    width: 1rem;
+}
+footer{
+    width: 80%;
+    margin:2rem  auto;
+
+    display: flex;
+    justify-content: space-between;
 }
