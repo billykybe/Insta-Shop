@@ -651,3 +651,6 @@ outline: none;
 a:hover{
     color:black;
 }
+.hide{
+    display: none;
+}
