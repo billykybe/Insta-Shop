@@ -365,7 +365,8 @@ justify-content: space-between;}
     margin:1.5rem auto;
 }
 .card img{
-min-height: 80%;
+object-fit: cover;
+    height: 80%;
 width: 100%;
 }
 .card h3{
@@ -398,7 +399,7 @@ bottom: -5rem;
     gap :1rem;
 }
 .trendingSale .side{
-    background: url(/assets/img/3.jpg);
+    background: url(/assets/img/14.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -410,6 +411,22 @@ bottom: -5rem;
     min-height: 20rem;
 justify-content: center;
     color: var(--white);
+}
+
+.trendingSale .side:first-child{
+    background: url(/assets/img/15.jpg);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+    min-height: 20rem;
+justify-content: center;
+    color: var(--white);
+
 }
 .trendingSale .side .lookbook{
 font-size: 1.9rem;
@@ -468,7 +485,7 @@ font-size: .9rem;
 
 .instagramPost{
     width: 100%;
-height: 100%;
+height: 17rem;
     justify-content: center;
 
     display: flex;
