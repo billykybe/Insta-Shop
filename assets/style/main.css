@@ -17,7 +17,6 @@
 *{
     margin: 0;
     padding: 0;
-    outline: .5px solid blue;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
@@ -208,7 +207,7 @@ position: relative;
 .hero .contain .right img{
 position: absolute;
 object-fit: contain;
-margin-top: 4rem;
+margin-top: 3rem;
 
 }
 .hero .heroSlider{
@@ -620,17 +619,18 @@ footer{
     background-color: var(--textBlack);
     color: var(--white);
 
-    right: .1rem;
-
-    border: 2px solid var(--white);
+    right: 0;
+outline: none;
     border-radius: 50px;
     height: 3rem;
     width: 35%;
-padding: 1rem;
 }
 .end p , a{
     font-size: .9rem;
 }
 .end p a{
     font-weight: bold;
+}
+a:hover{
+    color:black;
 }
