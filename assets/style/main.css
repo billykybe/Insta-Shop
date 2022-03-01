@@ -203,7 +203,7 @@ background-color: var(--textBlack);
 .hero .contain .right{
     height: 100%;
     width: 50%;
-background: url(../img/bgcircle.svg);
+background: url(./img/bgcircle.svg);
 background-position: bottom;
 background-repeat: no-repeat;
 background-size: 30rem;
@@ -404,7 +404,7 @@ bottom: -5rem;
     gap :1rem;
 }
 .trendingSale .side{
-    background: url(../img/14.jpg);
+    background: url(./img/14.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -419,7 +419,7 @@ justify-content: center;
 }
 
 .trendingSale .side:first-child{
-    background: url(../img/15.jpg);
+    background: url(./img/15.jpg);
       background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
