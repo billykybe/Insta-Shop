@@ -1,5 +1,8 @@
 /*Font import*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 /*Font import*/
 :root{
     --redDeamed:#ff0051;
@@ -15,10 +18,12 @@
 
 }
 *{
+    font-size: 15px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
@@ -654,3 +659,115 @@ a:hover{
 .hide{
     display: none;
 }
+
+.notification{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    
+}
+
+.ce{
+       
+         border-radius: 1rem;
+         box-shadow: 6px 6px 20px rgba(122 122 122 );
+         -webkit-border-radius: 1rem;
+         -moz-border-radius: 1rem;
+         -ms-border-radius: 1rem;
+         -o-border-radius: 1rem;
+}
+.notification
+.popupNotification{
+    width: 23rem;
+    background-color: var(--lightGray);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    left: 3.5rem;
+    position: absolute;
+    height: 7rem;
+    bottom: 4rem;
+}
+.notification
+.popupNotification
+img{
+    height: 100%;
+padding: .4rem;
+border-radius: 5px;
+object-fit: cover;
+}
+
+.notification
+.popupNotification
+.popDitails{
+padding: .4rem 0;
+
+    display: flex;
+    flex-direction: column;
+    color: var(--textBlack);
+    justify-content: space-between;
+}
+
+.notification
+.popupNotification
+.popDitails .popTitle{
+    font-size: .9rem;
+
+}
+
+.notification
+.popupNotification
+.popDitails .done{
+color: var(--textBlackDeam);
+}
+
+.notification
+.popupNotification
+.popDitails .name{
+    font-size: 1rem;
+
+}
+
+.notification
+.popupNotification
+.popDitails .when{
+    color: var(--textBlackDeam);
+    font-size: .9rem;
+
+}
+.notification
+.popupNotification
+.popDitails .when span{
+    color: var(--textBlack);
+    font-size: .95rem;
+
+}
+
+.notification
+.popupNotification
+.popDitails .when img{
+    height: 2rem;
+    margin: auto;
+}
+
+    .notification
+.popupNotification
+.popAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+padding: .4rem .4rem .4rem 1rem;
+    
+
+}
+
+
+
+
+    .notification
+.popupNotification
+.popAction img{
+height: 1.5rem;
+}
+
